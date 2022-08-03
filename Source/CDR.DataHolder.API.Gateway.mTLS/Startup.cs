@@ -112,7 +112,8 @@ namespace CDR.DataHolder.API.Gateway.mTLS
                     }
 
                     // Send through the original host name to the backend service.
-                    httpContext.Request.Headers.Add("X-Forwarded-Host", httpContext.Request.Host.ToString());
+                    if (string.IsNullOrEmpty(httpContext.Request.Headers["X-Forwarded-Host"]))
+                        httpContext.Request.Headers.Add("X-Forwarded-Host", httpContext.Request.Host.ToString());
 
                     await next.Invoke();
                 }
