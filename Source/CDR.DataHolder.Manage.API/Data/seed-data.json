@@ -2640,6 +2640,31 @@
                     ]
                 }
             ]
+        },
+	{
+            "LegalEntityId": "eeb75a76-5821-4c9e-b465-4709291cf0f4",
+            "LegalEntityName": "Mock Software Company",
+            "Status": "ACTIVE",
+            "LogoUri": "https://mocksoftware/img/logo.png",
+            "dataRecipientBrands": [
+                {
+                    "dataRecipientBrandId": "aab1c8ba-279e-44d8-96f0-1bc34a6b436f",
+                    "BrandName": "Mock Finance Tools",
+                    "LogoUri": "https://mocksoftware/img/logo.png",
+                    "Status": "ACTIVE",
+                    "LegalEntityId": "eeb75a76-5821-4c9e-b465-4709291cf0f4",
+                    "SoftwareProducts": [
+                        {
+                            "SoftwareProductId": "bb327f87-687a-4369-99a4-eaacd3bb8210",
+                            "SoftwareProductName": "MyBudgetHelper",
+                            "SoftwareProductDescription": "A product to help you manage your budget",
+                            "LogoUri": "https://mocksoftware/mybudgetapp/img/logo.png",
+                            "Status": "ACTIVE",
+                            "BrandId": "aab1c8ba-279e-44d8-96f0-1bc34a6b436f"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
