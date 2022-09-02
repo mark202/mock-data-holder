@@ -2665,6 +2665,31 @@
                     ]
                 }
             ]
+        },
+	{
+            "LegalEntityId": "67892430-819a-4718-91f6-8ef918d98ef2",
+            "LegalEntityName": "Fin Legal Entity - 001",
+            "Status": "ACTIVE",
+            "LogoUri": "https://mocksoftware/img/logo.png",
+            "dataRecipientBrands": [
+                {
+                    "dataRecipientBrandId": "0fcc625f-8df6-4642-9462-1f8c144f64ef",
+                    "BrandName": "Fin Brand - 001",
+                    "LogoUri": "https://mocksoftware/img/logo.png",
+                    "Status": "ACTIVE",
+                    "LegalEntityId": "67892430-819a-4718-91f6-8ef918d98ef2",
+                    "SoftwareProducts": [
+                        {
+                            "SoftwareProductId": "cdb7bffd-26f4-48a6-bd39-52d0acf0d47f",
+                            "SoftwareProductName": "Fin - MyBudgetHelper - 001",
+                            "SoftwareProductDescription": "A product to help you manage your budget",
+                            "LogoUri": "https://mocksoftware/mybudgetapp/img/logo.png",
+                            "Status": "ACTIVE",
+                            "BrandId": "0fcc625f-8df6-4642-9462-1f8c144f64ef"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
